@@ -17,7 +17,7 @@ Clone the repository:
 
 ```sh
 git clone https://github.com/anazri/peoplecase.git
-cd person-registry-api
+cd peoplecase
 ```
 
 Build the project:
