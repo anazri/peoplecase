@@ -38,7 +38,7 @@ The following API endpoints are available:
 
 Save a person's information, including their spouse and children's information.
 ```sh
-POST /persons
+POST /api/v1/person
 ```
 Example request body:
 ```sh
@@ -61,12 +61,12 @@ Example request body:
 
 Fetch a person's information using their SSN.
 ```sh
-GET /persons/{ssn}
+GET /api/v1/person/{ssn}
 ```
 
 Retrieve the name of the oldest child for a person with the given SSN.
 ```sh
-GET /persons/{ssn}/oldest-child
+GET /api/v1/person/{ssn}/oldest-child
 ```
 
 # Thank you
